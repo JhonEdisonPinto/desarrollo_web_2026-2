@@ -14,7 +14,7 @@
 
 Para codificar información se utiliza el **bit** (de *BInary digiT*), la unidad básica que solo puede asumir el valor «0» o el valor «1». Esta unidad se basa en el sistema numérico posicional binario y en el álgebra booleana, traducidos mediante circuitos lógicos.
 
-Una secuencia de 8 bits se llama **byte** (u «octeto binario») y permite representar *256 valores* distintos. Es un error común creer que ~~un byte tiene 10 bits~~: un byte tiene exactamente 8 bits.
+Una secuencia de 8 bits se llama **byte** (u «octeto binario») y permite representar *256 valores* distintos. Dos bytes forman una **palabra**. Es un error común creer que ~~un byte tiene 10 bits~~: un byte tiene exactamente 8 bits.
 
     Párrafo enmarcado: la secuencia mínima de bits, propia de la implementación
     física de un ordenador, se denomina byte y corresponde a 8 bits de longitud.
@@ -25,14 +25,14 @@ Para escribir símbolos especiales en Markdown se usa el escape: \*esto no es cu
 
 ## Conceptos clave
 
-El código `1000000` (7 bits) corresponde a la letra «A» en el código `ASCII`, y la misma cadena en minúscula es `1100001`.
+El código `1000001` (7 bits) corresponde a la letra «A» en el código `ASCII`, y la misma cadena en minúscula es `1100001`.
 
 Más información en el [curso de Desarrollo Web 1](https://www.eonicasys.com.co/2026-02/DesarrolloWeb1) o directamente en https://www.eonicasys.com.co/2026-02/DesarrolloWeb1
 
 ***
 
-> Gottfried Leibniz descubrió el sistema binario en su *Explication de l'Arithmétique Binaire* (1703).
->
+> Gottfried Leibniz expuso su aritmética binaria en su *Explication de l'Arithmétique Binaire* (1705), cuando Juan Caramuel ya había introducido los números binarios en 1669.
+> 
 >> Leibniz notó que su aritmética coincidía con los hexagramas del antiguo libro chino I Ching.
 
 ___
@@ -46,8 +46,7 @@ Unidades de medida de la información:
 
   - Kilobyte (KB)
   - Megabyte (MB)
-
-- Gigabyte (GB)
+  - Gigabyte (GB)
 
 Pasos para convertir un número decimal a binario:
 
@@ -72,8 +71,10 @@ Tareas del estudio:
 |---|---|---|---|
 | 0 | 2^0 | 1 | 00000001 |
 | 1 | 2^1 | 2 | 00000010 |
+| 2 | 2^2 | 4 | 00000100 |
 | 3 | 2^3 | 8 | 00001000 |
 | 4 | 2^4 | 16 | 00010000 |
+| 5 | 2^5 | 32 | 00100000 |
 | 6 | 2^6 | 64 | 01000000 |
 | 7 | 2^7 | 128 | 10000000 |
 
